@@ -105,3 +105,27 @@ button:hover {
     border: 2px solid #73ad21;
     padding: 20px;
 }
+
+/* players style */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 27px;
+    align-items: flex-start;
+}
+.player {
+    padding: 16px;
+    width: 330px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+.player .player-banner img {
+    width: 300px;
+    height: 426px;
+    position: static;
+}
+.player-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
