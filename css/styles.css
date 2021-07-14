@@ -20,7 +20,8 @@ a {
     text-decoration: none;
 }
 
-/*  */
+/* --------nav bar-----*/
+
 #header_part {
     width: 100vw;
     height: 100%;
@@ -96,7 +97,7 @@ i {
     margin-left: 10px;
 }
 
-/*  */
+/* -----header section------ */
 
 .header_content {
     width: 1122px;
@@ -160,7 +161,19 @@ i {
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-/*  */
+.marquee {
+    color: white;
+
+    /* display: none; */
+}
+#header_part:hover .marquee {
+    color: tomato;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+/*------ players details------ */
 
 #main {
     width: 100%;
@@ -200,7 +213,8 @@ i {
     color: #6c6c6c;
 }
 
-/*  */
+/* ----Highlights section---- */
+
 #play_article_section {
     width: 1144px;
     margin: 100px 0;
@@ -230,6 +244,32 @@ i {
     height: 407px;
     border-radius: 5px;
 }
+
+/* ---football partners--- */
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+#football-partners {
+    width: 100%;
+    border: 5px solid red;
+    margin: 20px;
+    padding: 100px;
+}
+.football-partners {
+    justify-content: center;
+    margin: 80px;
+    /* padding: 200px; */
+}
+
+.f-image {
+    height: 100px;
+    width: 200px;
+    margin: 0 50px;
+}
+
+/*---FOOTER ----- */
 
 #footer_section {
     width: 100%;
