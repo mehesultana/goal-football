@@ -245,30 +245,6 @@ i {
     border-radius: 5px;
 }
 
-/* ---football partners--- */
-
-h3 {
-    font-size: 40px;
-    text-align: center;
-}
-#football-partners {
-    width: 100%;
-    border: 5px solid red;
-    margin: 20px;
-    padding: 100px;
-}
-.football-partners {
-    justify-content: center;
-    margin: 80px;
-    /* padding: 200px; */
-}
-
-.f-image {
-    height: 100px;
-    width: 200px;
-    margin: 0 50px;
-}
-
 /*---FOOTER ----- */
 
 #footer_section {
@@ -277,11 +253,13 @@ h3 {
 }
 
 .footer_content {
-    width: 40%;
+    /* width: 40%; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 50px;
+    padding-bottom: 50px;
 }
 
 .footer_icon a {
@@ -289,6 +267,7 @@ h3 {
     height: 32px;
     background: gray;
     margin-left: 3px;
+    margin-top: 50px;
     padding: 10px 15px;
     border-radius: 50%;
 }
