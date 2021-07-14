@@ -195,3 +195,35 @@ i {
     font-size: 16px;
     color: #6c6c6c;
 }
+
+/*  */
+
+#play_article_section {
+    width: 1144px;
+    margin: 100px 0;
+}
+
+.play_article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_play_article {
+    width: 45%;
+}
+
+.left_play_article h2 {
+    font-size: 48px;
+}
+
+.left_play_article p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.right_play_image img {
+    width: 547px;
+    height: 407px;
+    border-radius: 5px;
+}
